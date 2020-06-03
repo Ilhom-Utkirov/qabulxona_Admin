@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/meta :: head"></head>
+
+<body>
+<th:block th:replace="fragments/scripts :: scripts"></th:block>
+
+<div id="main">
+    <div th:replace="fragments/header :: header"/>
+
+    <section id="content_wrapper">
+
+
+            <div class=" admin-form tray tray-center" th:object="appeal">
+                <div class="mt30 mb30 section-divider" align="center"><span></span></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" id="nameDiv">
+                            <label class="control-label">
+                                <span>Ism</span>
+                            </label><br/>
+                            <span th:text="${appeal.getName()}"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group" id="surnameDiv">
+                            <label class="control-label">
+                                <span>Familya</span>
+                            </label><br/>
+                            <span th:text="${appeal.getSurname()}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" id="matricula">
+                            <label class="control-label">
+                                <span>Matricula</span>
+                            </label><br/>
+                            <span th:text="${appeal.getStudentId()}"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group" id="id">
+                            <label class="control-label">
+                                <span>Murojaat Id</span>
+                            </label><br/>
+                            <span th:text="${appeal.getId()}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" id="email">
+                            <label class="control-label">
+                                <span>Email</span>
+                            </label><br/>
+                            <span th:text="${appeal.getStudentEmail()}"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group" id="phoneNumber">
+                            <label class="control-label">
+                                <span>Telefon raqami</span>
+                            </label><br/>
+                            <span th:text="${appeal.getPhoneNumber()}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" id="appealType">
+                            <label class="control-label">
+                                <span>Murojaat Turi</span>
+                            </label><br/>
+                            <span th:text="${appeal.getAppealType()}"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt30 mb30 section-divider" align="center"><span></span></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group" id="appealText">
+                            <label class="control-label">
+                                <span>Murojaat Turi</span>
+                            </label><br/>
+                            <textarea rows="10" cols="60" disabled="disabled" th:text="${appeal.getAppaelText()}"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+    </section>
+
+</div>
+</body>
+</html>

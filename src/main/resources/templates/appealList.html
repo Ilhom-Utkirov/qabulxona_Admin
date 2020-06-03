@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/meta :: head">
+<style>
+
+</style>
+</head>
+
+<body>
+<th:block th:replace="fragments/scripts :: scripts"></th:block>
+
+<div id="main">
+    <div th:replace="fragments/header :: header"/>
+
+    <section id="content_wrapper">
+        <section id="content" class="table-layout animated fadeIn">
+
+            <div class=" admin-form tray tray-center">
+                <table class="table table-striped table-bordered" id="appeals-table">
+                    <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Ism</th>
+                        <th>Familiya</th>
+                        <th>Telefon raqami</th>
+                        <th>Matricula</th>
+                        <th>Email manzili</th>
+                        <th>Murojaat Turi</th>
+                        <th>Sana</th>
+                        <th>Info</th>
+                    </tr>
+                    </thead>
+                </table>
+
+                <script th:src="@{/static/lib/datatables/js/jquery.dataTables.min.js}"></script>
+                <script th:src="@{/static/lib/datatables/js/dataTables.bootstrap.min.js}"></script>
+                <script th:src="@{/static/lib/sirnornur/helpers.js}"></script>
+                <script th:src="@{/static/darkMode.css}"></script>
+                <script th:inline="javascript">
+                    //<![CDATA[
+                    //var ajaxRequestLink = '/MaxsusRektorUchunSayt/appeals/ajax_list';
+                    var ajaxRequestLink = '/appeals/ajax_list';
+                    $(document).ready(function () {
+
+                        function renderActionColumn(){
+                            var html = '<a class="btn btn-xs btn-default mr5" onclick="getAppealDetails(this)"><i class="fa fa-info-circle"></i></a>';
+                            return html;
+                        }
+
+                        datatableSelector = $('#appeals-table');
+                        datatableSelector.DataTable({
+                            processing: true,
+                            pageLength: 25,
+                            order: [[0, 'desc']],
+
+                            ajax : function (dataToSend, callback) {
+
+                                $.get(ajaxRequestLink, dataToSend, function(data){
+                                    callback(data);
+                                });
+                            },
+
+                            columns: [
+                                {data: 0, name: 'id'},
+                                {data: 1, name: 'name'},
+                                {data: 2, name: 'surname'},
+                                {data: 3, name: 'phoneNumber'},
+                                {data: 4, name: 'studentId'},
+                                {data: 5, name: 'StudentEmail'},
+                                {data: 6, name: 'appealType'},
+                                {data: 7, name: 'dateCreated'},
+                                {render: renderActionColumn, orderable:false}
+                            ]
+                        });
+
+
+                    });
+                    function getAppealDetails(elem) {
+                        var id = $(elem).closest('tr').find('td:first').text();
+
+                        $.ajax({
+                            type: 'GET',
+                            //uncomment for uploading to server comment next line
+                            //url: '/MaxsusRektorUchunSayt/appeals/details?id=' + id,
+                            url: 'appeals/details?id=' + id,
+                            contentType: "application/json",
+                            success: function (data) {
+                                viewDetailsModal(data);
+                            },
+                            error: function (data) {
+                                viewDetailsModal(data);
+                                alert("somthing gone wrong")
+                            }
+                        });
+                    }
+                    function viewDetailsModal(data) {
+                        var modalBody = $('#checkModal .modal-body');
+                        var filenames =
+                        modalBody.empty();
+                        var info = data.details;
+
+                       // $('<h6  class="dark" >Murojaat haqida ma&apos;lumot</h6>').appendTo(modalBody);
+                        //to check if anonim show bu anonim murojaat
+                        if(info.name!="anonim") {
+                            $('<p class="dark">To&apos;liq ismi: <strong>' + info.name + " " + info.surname + '</strong></p>' +
+                                '<p class="dark">Id raqami: <strong>' + info.studentId + '</strong></p>' +
+                                '<p class="dark">Telefon nomeri: <strong>' + info.phoneNumber + '</strong></p>').appendTo(modalBody);
+                        }else{
+                            $('<p class="dark">Bu <strong>Anonim</strong> murojaat</p>').appendTo(modalBody);
+                        }
+                        if (info.StudentEmail != "anonim") {
+                            $('<p>Email addresi: <strong>' + info.StudentEmail + '</strong></p>').appendTo(modalBody);
+                        }else {
+                            $('<p class="dark">Email: <strong>Email Yashirilgan</strong></p>').appendTo(modalBody);
+                        }
+                        $('<h6>Murojaat</h6>' +
+                            '<p>Murojaat turi: <strong>' + info.appealType + '</strong></p>' +
+                            '<p>Yo&apos;llangan vahti: <strong>' + info.dateCreated + '</strong></p>').appendTo(modalBody);
+
+                        $('<h6></h6>' +
+                            '<p><h4>Murojaat matni:</h4> <div style="overflow: scroll;height: auto; width:550px;">' +info.appaelText + '</div></p>').appendTo(modalBody);
+
+                        //$('<h6></h6>' +
+                         //   '<p>Yuklangan Fayllar: <div style="overflow: scroll;height: auto; width:550px;">' +info.filenames + '</div></p>').appendTo(modalBody);
+
+                        $('#checkModal').modal();
+                    }
+                    //]]>
+                </script>
+            </div>
+        </section>
+    </section>
+    <div id="checkModal" class="modal printable" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" >Murojaat haqida ma'lumot</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--info-block-->
+                <div class="modal-body ">
+
+
+                </div>
+                <div class="modal-body2" >
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<th id="thMurojaat">Murojaat matni</th>-->
+</body>
+</html>

@@ -1,0 +1,655 @@
+2020-01-29 15:02:39.198 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : Starting QabulxonaApplication on LAPTOP-ILKHOM with PID 8188 (started by ilhom in C:\MINE\ish\turin\test\from shokir6\admin\qabulxona)
+2020-01-29 15:02:39.213 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : No active profile set, falling back to default profiles: default
+2020-01-29 15:02:39.549 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c26889: startup date [Wed Jan 29 15:02:39 UZT 2020]; root of context hierarchy
+2020-01-29 15:02:39.598 [32m  INFO [mLAPTOP-ILKHOM --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.2.4.Final
+2020-01-29 15:02:41.489 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from URL [jar:file:/D:/web/maven/repository/org/springframework/integration/spring-integration-core/4.2.9.RELEASE/spring-integration-core-4.2.9.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2020-01-29 15:02:41.493 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.c.IntegrationRegistrar             : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-01-29 15:02:41.886 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-01-29 15:02:41.897 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-01-29 15:02:42.067 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f0e9e087] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-29 15:02:43.572 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8085 (http)
+2020-01-29 15:02:43.633 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-01-29 15:02:43.639 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.37
+2020-01-29 15:02:43.906 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-29 15:02:43.906 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4360 ms
+2020-01-29 15:02:44.100 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-29 15:02:44.102 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-01-29 15:02:44.102 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-01-29 15:02:44.516 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-01-29 15:02:44.522 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-29 15:02:44.602 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-01-29 15:02:44.604 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-01-29 15:02:44.610 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-01-29 15:02:45.476 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-01-29 15:02:45.812 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-01-29 15:02:45.969 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-01-29 15:02:46.281 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000228: Running hbm2ddl schema update
+2020-01-29 15:02:46.281 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000102: Fetching database metadata
+2020-01-29 15:02:46.283 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000396: Updating schema
+2020-01-29 15:02:46.323 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.admin_user
+2020-01-29 15:02:46.323 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [password, surname, name, phone_number, id, registered_date, enabled, username]
+2020-01-29 15:02:46.323 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-01-29 15:02:46.323 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-01-29 15:02:46.347 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.admin_user_role
+2020-01-29 15:02:46.347 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [role, user_id, id, version, enabled]
+2020-01-29 15:02:46.347 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_9si3yvpr3ccw8xo5yij8ovovw]
+2020-01-29 15:02:46.347 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_9si3yvpr3ccw8xo5yij8ovovw, primary]
+2020-01-29 15:02:46.363 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.appael
+2020-01-29 15:02:46.363 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [appeal_type, appeal_text, date_created, surname, name, student_id, phone_number, id, student_email]
+2020-01-29 15:02:46.363 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-01-29 15:02:46.363 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-01-29 15:02:46.401 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.user_and_admin
+2020-01-29 15:02:46.401 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [store_id, admin_user_id, id, region_code]
+2020-01-29 15:02:46.402 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_falfo62oo2mcnf3ojfc69t3jh]
+2020-01-29 15:02:46.402 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_falfo62oo2mcnf3ojfc69t3jh, primary]
+2020-01-29 15:02:46.402 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000232: Schema update complete
+2020-01-29 15:02:47.295 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1156bb5, org.springframework.security.web.context.SecurityContextPersistenceFilter@878dca, org.springframework.security.web.header.HeaderWriterFilter@1d9a5cf, org.springframework.security.web.csrf.CsrfFilter@1d6fcbd, org.springframework.security.web.authentication.logout.LogoutFilter@944b62, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c8437e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23dc86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@344bae, org.springframework.security.web.session.SessionManagementFilter@1f0db26, org.springframework.security.web.access.ExceptionTranslationFilter@141493b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d26cce]
+2020-01-29 15:02:47.566 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from class path resource [rest-default-messages.properties]
+2020-01-29 15:02:47.797 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/admin/users]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.getBankUsersPage(org.springframework.ui.Model)
+2020-01-29 15:02:47.798 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/banks/users/save],methods=[POST]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.submitUser(ttpu.qabulxona.entity.AdminUser,java.lang.Integer[])
+2020-01-29 15:02:47.798 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/admin/users/form]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.getUserForm(org.springframework.ui.Model,java.lang.Integer)
+2020-01-29 15:02:47.798 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String ttpu.qabulxona.controller.ListController.get()
+2020-01-29 15:02:47.799 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appeals/ajax_list]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> ttpu.qabulxona.controller.ListController.getUsersAsJSON()
+2020-01-29 15:02:47.799 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appeals/details],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> ttpu.qabulxona.controller.ListController.showModal(java.lang.Integer)
+2020-01-29 15:02:47.803 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-29 15:02:47.803 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-29 15:02:47.840 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 15:02:47.840 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/plugins/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 15:02:47.840 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 15:02:47.840 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/firebase*.js] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 15:02:47.950 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c26889: startup date [Wed Jan 29 15:02:39 UZT 2020]; root of context hierarchy
+2020-01-29 15:02:48.015 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+2020-01-29 15:02:48.822 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerAdapter   : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1c26889: startup date [Wed Jan 29 15:02:39 UZT 2020]; root of context hierarchy
+2020-01-29 15:02:48.841 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+2020-01-29 15:02:48.848 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 15:02:48.849 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 15:02:48.849 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 15:02:48.849 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2020-01-29 15:02:48.850 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources<java.lang.Object>,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2020-01-29 15:02:48.852 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.852 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.853 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.853 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<?>> org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.util.MultiValueMap<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.853 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.854 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.854 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[POST],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.854 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.855 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+2020-01-29 15:02:48.855 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 15:02:48.855 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.857 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.857 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2020-01-29 15:02:48.858 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.858 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2020-01-29 15:02:48.858 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+2020-01-29 15:02:48.858 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+2020-01-29 15:02:48.859 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.859 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+2020-01-29 15:02:48.860 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+2020-01-29 15:02:48.860 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+2020-01-29 15:02:48.866 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.867 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+2020-01-29 15:02:48.867 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[GET]}" onto org.springframework.http.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+2020-01-29 15:02:48.867 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 15:02:48.867 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+2020-01-29 15:02:48.902 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+2020-01-29 15:02:49.216 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from URL [jar:file:/D:/web/maven/repository/org/springframework/integration/spring-integration-core/4.2.9.RELEASE/spring-integration-core-4.2.9.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2020-01-29 15:02:49.365 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2020-01-29 15:02:50.114 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-29 15:02:50.348 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-01-29 15:02:50.358 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 0
+2020-01-29 15:02:50.358 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.e.EventDrivenConsumer              : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-01-29 15:02:50.358 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.c.PublishSubscribeChannel          : Channel 'application:8085.errorChannel' has 1 subscriber(s).
+2020-01-29 15:02:50.358 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.e.EventDrivenConsumer              : started _org.springframework.integration.errorLogger
+2020-01-29 15:02:50.379 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8085"]
+2020-01-29 15:02:50.384 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8085"]
+2020-01-29 15:02:50.396 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-01-29 15:02:50.409 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8085 (http)
+2020-01-29 15:02:50.415 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : Started QabulxonaApplication in 11.592 seconds (JVM running for 13.732)
+2020-01-29 15:03:05.425 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-29 15:03:05.425 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-01-29 15:03:05.440 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2020-01-29 15:03:05.520 [31m ERROR [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.d.r.w.RepositoryRestExceptionHandler : Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:176)
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:277)
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindOne(CrudRepositoryInvoker.java:91)
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindOne(UnwrappingRepositoryInvokerFactory.java:133)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:553)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:194)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:62)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:49)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:425)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:35)
+	... 81 more
+2020-01-29 15:03:05.520 [31m ERROR [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.d.r.w.RepositoryRestExceptionHandler : Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:176)
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:277)
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindOne(CrudRepositoryInvoker.java:91)
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindOne(UnwrappingRepositoryInvokerFactory.java:133)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:553)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:194)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:62)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:49)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:425)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:35)
+	... 81 more
+2020-01-29 15:03:05.552 [31m ERROR [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.d.r.w.RepositoryRestExceptionHandler : Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:176)
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:277)
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindOne(CrudRepositoryInvoker.java:91)
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindOne(UnwrappingRepositoryInvokerFactory.java:133)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:553)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:194)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:62)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:49)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:425)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:35)
+	... 81 more
+2020-01-29 15:03:05.552 [31m ERROR [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.d.r.w.RepositoryRestExceptionHandler : Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value 'list'; nested exception is java.lang.NumberFormatException: For input string: "list"
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:192)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:176)
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:277)
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindOne(CrudRepositoryInvoker.java:91)
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindOne(UnwrappingRepositoryInvokerFactory.java:133)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:553)
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:832)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:743)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:194)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:62)
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:49)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:425)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:35)
+	... 81 more
+2020-01-29 15:03:05.682 [33m  WARN [mLAPTOP-ILKHOM --- [nio-8085-exec-2] o.s.w.s.PageNotFound                     : No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+2020-01-29 15:03:10.360 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.TemplateEngine                       : [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2020-01-29 15:03:10.431 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.t.AbstractTemplateResolver           : [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
+2020-01-29 15:03:10.431 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.t.AbstractTemplateResolver           : [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2020-01-29 15:03:10.431 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.m.AbstractMessageResolver            : [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2020-01-29 15:03:10.432 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.m.AbstractMessageResolver            : [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2020-01-29 15:03:10.435 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.T.CONFIG                             : [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 3]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 3]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] * Dialect [3 of 3]: org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect
+[THYMELEAF]     * Prefix: "sec"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2020-01-29 15:03:10.435 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-3] o.t.TemplateEngine                       : [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2020-01-29 16:00:12.012 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : Starting QabulxonaApplication on LAPTOP-ILKHOM with PID 17920 (started by ilhom in C:\MINE\ish\turin\test\from shokir6\admin\qabulxona)
+2020-01-29 16:00:12.013 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : No active profile set, falling back to default profiles: default
+2020-01-29 16:00:12.273 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@126e286: startup date [Wed Jan 29 16:00:12 UZT 2020]; root of context hierarchy
+2020-01-29 16:00:12.304 [32m  INFO [mLAPTOP-ILKHOM --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.2.4.Final
+2020-01-29 16:00:14.109 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from URL [jar:file:/D:/web/maven/repository/org/springframework/integration/spring-integration-core/4.2.9.RELEASE/spring-integration-core-4.2.9.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2020-01-29 16:00:14.111 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.c.IntegrationRegistrar             : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-01-29 16:00:14.379 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-01-29 16:00:14.388 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-01-29 16:00:14.499 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ac9c3d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-29 16:00:14.928 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8085 (http)
+2020-01-29 16:00:14.937 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-01-29 16:00:14.937 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.37
+2020-01-29 16:00:15.045 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-01-29 16:00:15.045 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2775 ms
+2020-01-29 16:00:15.188 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-01-29 16:00:15.189 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2020-01-29 16:00:15.189 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-01-29 16:00:15.519 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-01-29 16:00:15.529 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-01-29 16:00:15.594 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-01-29 16:00:15.600 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-01-29 16:00:15.601 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-01-29 16:00:16.231 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-01-29 16:00:16.476 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-01-29 16:00:16.670 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-01-29 16:00:16.928 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000228: Running hbm2ddl schema update
+2020-01-29 16:00:16.928 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000102: Fetching database metadata
+2020-01-29 16:00:16.929 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000396: Updating schema
+2020-01-29 16:00:16.958 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.admin_user
+2020-01-29 16:00:16.958 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [password, surname, name, phone_number, id, registered_date, enabled, username]
+2020-01-29 16:00:16.958 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-01-29 16:00:16.958 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-01-29 16:00:16.976 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.admin_user_role
+2020-01-29 16:00:16.976 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [role, user_id, id, version, enabled]
+2020-01-29 16:00:16.976 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_9si3yvpr3ccw8xo5yij8ovovw]
+2020-01-29 16:00:16.976 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_9si3yvpr3ccw8xo5yij8ovovw, primary]
+2020-01-29 16:00:16.990 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.appael
+2020-01-29 16:00:16.990 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [appeal_type, appeal_text, date_created, surname, name, student_id, phone_number, id, student_email]
+2020-01-29 16:00:16.990 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-01-29 16:00:16.990 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-01-29 16:00:17.005 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000261: Table found: qabulxona.user_and_admin
+2020-01-29 16:00:17.005 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000037: Columns: [store_id, admin_user_id, id, region_code]
+2020-01-29 16:00:17.005 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_falfo62oo2mcnf3ojfc69t3jh]
+2020-01-29 16:00:17.005 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_falfo62oo2mcnf3ojfc69t3jh, primary]
+2020-01-29 16:00:17.006 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.h.t.h.SchemaUpdate                     : HHH000232: Schema update complete
+2020-01-29 16:00:17.735 [32m  INFO [mLAPTOP-ILKHOM --- [ost-startStop-1] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c5222e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c1410, org.springframework.security.web.header.HeaderWriterFilter@1bb2593, org.springframework.security.web.csrf.CsrfFilter@1d92630, org.springframework.security.web.authentication.logout.LogoutFilter@21f736, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b25da1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@606f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@eb7364, org.springframework.security.web.session.SessionManagementFilter@4ec02d, org.springframework.security.web.access.ExceptionTranslationFilter@dfd47, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dde0b]
+2020-01-29 16:00:17.949 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from class path resource [rest-default-messages.properties]
+2020-01-29 16:00:18.149 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/admin/users/form]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.getUserForm(org.springframework.ui.Model,java.lang.Integer)
+2020-01-29 16:00:18.150 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/admin/users]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.getBankUsersPage(org.springframework.ui.Model)
+2020-01-29 16:00:18.150 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cmn/banks/users/save],methods=[POST]}" onto public java.lang.String ttpu.qabulxona.controller.AdminUsersController.submitUser(ttpu.qabulxona.entity.AdminUser,java.lang.Integer[])
+2020-01-29 16:00:18.150 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String ttpu.qabulxona.controller.ListController.get()
+2020-01-29 16:00:18.151 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appeals/ajax_list]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> ttpu.qabulxona.controller.ListController.getUsersAsJSON()
+2020-01-29 16:00:18.151 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appeals/details],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> ttpu.qabulxona.controller.ListController.showModal(java.lang.Integer)
+2020-01-29 16:00:18.155 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-29 16:00:18.156 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-29 16:00:18.194 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 16:00:18.194 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/plugins/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 16:00:18.194 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 16:00:18.195 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/firebase*.js] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 16:00:18.300 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@126e286: startup date [Wed Jan 29 16:00:12 UZT 2020]; root of context hierarchy
+2020-01-29 16:00:18.360 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+2020-01-29 16:00:19.026 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerAdapter   : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@126e286: startup date [Wed Jan 29 16:00:12 UZT 2020]; root of context hierarchy
+2020-01-29 16:00:19.040 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+2020-01-29 16:00:19.040 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 16:00:19.040 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 16:00:19.041 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+2020-01-29 16:00:19.041 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2020-01-29 16:00:19.041 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources<java.lang.Object>,java.io.Serializable,java.lang.String) throws java.lang.Exception
+2020-01-29 16:00:19.043 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<?>> org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.util.MultiValueMap<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.044 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.044 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.045 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.045 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.045 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+2020-01-29 16:00:19.045 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.046 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.046 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.046 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.046 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}],methods=[POST],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2020-01-29 16:00:19.047 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+2020-01-29 16:00:19.048 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2020-01-29 16:00:19.048 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.048 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+2020-01-29 16:00:19.048 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.048 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.049 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+2020-01-29 16:00:19.049 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+2020-01-29 16:00:19.049 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+2020-01-29 16:00:19.050 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.RepositoryRestHandlerMapping   : Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+2020-01-29 16:00:19.054 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.054 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+2020-01-29 16:00:19.054 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile],methods=[GET]}" onto org.springframework.http.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+2020-01-29 16:00:19.055 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+2020-01-29 16:00:19.055 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.d.r.w.BasePathAwareHandlerMapping    : Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+2020-01-29 16:00:19.071 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+2020-01-29 16:00:19.326 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.f.c.PropertiesFactoryBean          : Loading properties file from URL [jar:file:/D:/web/maven/repository/org/springframework/integration/spring-integration-core/4.2.9.RELEASE/spring-integration-core-4.2.9.RELEASE.jar!/META-INF/spring.integration.default.properties]
+2020-01-29 16:00:19.355 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2020-01-29 16:00:20.054 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-29 16:00:20.350 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-01-29 16:00:20.359 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 0
+2020-01-29 16:00:20.360 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.e.EventDrivenConsumer              : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-01-29 16:00:20.360 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.c.PublishSubscribeChannel          : Channel 'application:8085.errorChannel' has 1 subscriber(s).
+2020-01-29 16:00:20.360 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.s.i.e.EventDrivenConsumer              : started _org.springframework.integration.errorLogger
+2020-01-29 16:00:20.377 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8085"]
+2020-01-29 16:00:20.383 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8085"]
+2020-01-29 16:00:20.394 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-01-29 16:00:20.407 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8085 (http)
+2020-01-29 16:00:20.412 [32m  INFO [mLAPTOP-ILKHOM --- [  restartedMain] t.q.QabulxonaApplication                 : Started QabulxonaApplication in 8.666 seconds (JVM running for 10.793)
+2020-01-29 16:04:19.945 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-01-29 16:04:19.945 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-01-29 16:04:19.985 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2020-01-29 16:04:20.043 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.TemplateEngine                       : [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2020-01-29 16:04:20.108 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.t.AbstractTemplateResolver           : [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
+2020-01-29 16:04:20.108 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.t.AbstractTemplateResolver           : [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2020-01-29 16:04:20.108 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.m.AbstractMessageResolver            : [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2020-01-29 16:04:20.108 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.m.AbstractMessageResolver            : [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2020-01-29 16:04:20.113 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.T.CONFIG                             : [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.ClassLoaderTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 3]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 3]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] * Dialect [3 of 3]: org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect
+[THYMELEAF]     * Prefix: "sec"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2020-01-29 16:04:20.113 [32m  INFO [mLAPTOP-ILKHOM --- [nio-8085-exec-1] o.t.TemplateEngine                       : [THYMELEAF] TEMPLATE ENGINE INITIALIZED
